@@ -47,13 +47,13 @@ namespace ProcessoAPI.Controllers
         {
             return Ok(_usuarioRepository.BuscarPorId(id));
         }
-        [Authorize(Roles = "2,3")]
+        [Authorize(Roles = "1,2,3")]
         [HttpPut("{id}")]
         public IActionResult Alterar(int id,Usuario usuarioAtt)
         {
             return Ok(_usuarioRepository.Atualizar(id,usuarioAtt));
         }
-        [Authorize(Roles = "2,3")]
+        [Authorize(Roles = "1,2,3")]
         [HttpPatch("{id}")]
         public IActionResult AlterarStatus(int id, bool idStatus)
         {
