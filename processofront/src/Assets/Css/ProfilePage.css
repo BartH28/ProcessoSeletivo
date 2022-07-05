@@ -1,0 +1,76 @@
+.Container-Profiles{
+    width: 90%;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Profile-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 80%;
+    background: white;
+    border-radius: 2rem;
+}
+.Info-Container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.Info-Container span{
+    font-size: 2rem;    
+}
+
+.btn{
+    width: 90%;
+    border: none;
+    
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+    height: 4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transition: 1s ease-in-out ;
+    transform: scale(1.03);
+}
+
+.logout{
+    background: #bb3333;
+}
+.alterar{
+    background: #3374BB;
+}
+
+.Details-Container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    
+}
+
+
+.Varible-Info{
+    color: #3374BB;
+    font-weight: bold;
+}
+
+.Title-Profile{
+    font-weight: bold;
+    color: #3374BB;
+    font-size: 3rem;
+}
+
