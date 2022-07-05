@@ -25,6 +25,7 @@ namespace ProcessoAPI.Repositories
                 usuarioBuscado.Nome = usuarioAtt.Nome;
                 usuarioBuscado.Email = usuarioAtt.Email;
                 usuarioBuscado.Senha = usuarioAtt.Senha;
+                usuarioBuscado.Status = usuarioAtt.Status;
                 ctx.Usuarios.Update(usuarioBuscado);
                 ctx.SaveChanges();
                 return ctx.Usuarios.FirstOrDefault(u => u.IdUsuario == id);
@@ -47,7 +48,7 @@ namespace ProcessoAPI.Repositories
 
         public Usuario BuscarPorId(int id)
         {
-            return ctx.Usuarios.Include(u => u.IdTipoUsuarioNavigation). FirstOrDefault(u => u.IdUsuario == id);
+            return ctx.Usuarios.Include(u => u.IdTipoUsuarioNavigation).FirstOrDefault(u => u.IdUsuario == id);
         }
 
         public Usuario Criar(Usuario novoUsuario)
