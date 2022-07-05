@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API-Cadastro", "API-Cadastro\API-Cadastro.csproj", "{0666E502-D3FF-4E2F-AF12-1CCCC0723097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usuarios.Tests", "Usuarios.Tests\Usuarios.Tests.csproj", "{5EEA10C2-089C-4AAD-9DFC-BA5C3CBE42A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0666E502-D3FF-4E2F-AF12-1CCCC0723097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0666E502-D3FF-4E2F-AF12-1CCCC0723097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0666E502-D3FF-4E2F-AF12-1CCCC0723097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0666E502-D3FF-4E2F-AF12-1CCCC0723097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EEA10C2-089C-4AAD-9DFC-BA5C3CBE42A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EEA10C2-089C-4AAD-9DFC-BA5C3CBE42A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EEA10C2-089C-4AAD-9DFC-BA5C3CBE42A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EEA10C2-089C-4AAD-9DFC-BA5C3CBE42A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4102B1E7-6D56-4FA0-B388-026379306999}
+	EndGlobalSection
+EndGlobal
